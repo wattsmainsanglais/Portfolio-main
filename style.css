@@ -8,9 +8,11 @@ header{
     padding-left: .5%;
 }
 
+
 .profilePic{
     width: 80px;
 }
+
 
 header h1 {
     animation: skew 5s infinite;
@@ -82,7 +84,32 @@ main{
     border-radius: 10px;
 }
 
-.contact{
+
+
+footer{
     display: flex;
+    justify-content: space-between;
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-bottom: 2%;
+}
+
+.contact{
     
+    width: 30%;
+    
+}
+
+input, textarea{
+    padding: 0 0.5%;
+    display: inline-block;
+    
+}
+
+textarea{
+    width: 100%;
+}
+
+input{
+    width: 75%;
 }
