@@ -84,6 +84,14 @@ main{
     border-radius: 10px;
 }
 
+.nodelogo{
+    width: 100px;
+    height: 90px;
+    background-color: #a79ddf69;
+    padding: 2px;
+    border-radius: 10px;
+}
+
 
 
 footer{
