@@ -14,12 +14,17 @@ header{
 }
 
 
-header h1 {
+header h1{
+    text-align: right;
+}
+
+
+.animated-header {
     animation: skew 5s infinite;
     transform: skew(20deg);
     animation-direction: alternate;
     
-    text-align: right;
+    
 }
 
 @keyframes skew {
