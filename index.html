@@ -65,8 +65,8 @@
             <section class="contact">
                 <form id="contactForm" method="post" action="contact_post.php">
 
-                    <script language="JavaScript">
-                        const frmvalidator  = new Validator("contactform");
+                    <script language="JavaScript" type="text/javascript">
+                        const frmvalidator  = new Validator("contactForm");
                         frmvalidator.addValidation("name","req","Please provide your name");
                         frmvalidator.addValidation("email","req","Please provide your email");
                         frmvalidator.addValidation("email","email",
@@ -89,7 +89,7 @@
 
 
                 </form>
-                    <button type="submit" form="contactForm" value="submit" onclick="alert('Message Sent')">Submit!</button>
+                    <button type="submit" form="contactForm" value="submit" >Submit!</button>
 
             </section>
             <section class="social-media">
