@@ -8,8 +8,7 @@
         <link href="style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet"> 
-    
+        <link href="https://fonts.googleapis.com/css2?family=Genos&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -49,8 +48,8 @@
             </section>
             <section class="projects">
                 
-                <article>   
-                    <h2>Current Projects</h2>
+                <article class="project-art">   
+                    <h2 class="titles_nomarg">Current Projects</h2>
                     <h3>Nature Dopes</h3>
                     <p>Nature Dopes is ongoing project dedicated to creating a site 
                     firstly for the appreciation of natural flora, secondly as an educational tool. 
@@ -64,7 +63,16 @@
         </div>
         <footer>
             <section class="contact">
-                <form id="contactForm">
+                <form id="contactForm" method="post" action="contact_post.php">
+
+                    <script language="JavaScript">
+                        const frmvalidator  = new Validator("contactform");
+                        frmvalidator.addValidation("name","req","Please provide your name");
+                        frmvalidator.addValidation("email","req","Please provide your email");
+                        frmvalidator.addValidation("email","email",
+                          "Please enter a valid email address");
+                    </script>
+
                     <h2>Contact me here!</h2>
                     <hr>
                     <label for="name">Name</label>

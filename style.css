@@ -1,7 +1,7 @@
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding-top: 2px;
     padding-right: 9%;
@@ -15,9 +15,11 @@ header{
 
 
 header h1{
-    text-align: right;
-    font-family: 'Climate Crisis', cursive;
-    font-weight: 1;
+    padding-left: 3%;
+    text-align: left;
+    font-family: 'Genos', sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
 }
 
 
@@ -41,7 +43,7 @@ header h1{
 
 body{
     background-image: linear-gradient(to bottom right, #6c59d4, #D4D0C5);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Genos', sans-serif;
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -66,7 +68,8 @@ body{
 
 main{
     color:  rgb(255, 255, 255);
-    font-weight: 800;
+    font-size: 1.3em;
+    font-weight: 600;
     padding: 0 5%;
     display: flex;
     flex-direction: column;
@@ -74,14 +77,33 @@ main{
     align-items: center;
 }
 
+article{
+    background-color: #38353b62;
+    
+}
+
 .about{
-    padding: 12% 0% 1% 0%;
+    padding: 0% 1% 1% 1%;
+    margin-top: 11%;
     margin-bottom: 2%;
 }
 
 .skills{
     text-align: center;
     margin-bottom: 5%;
+}
+
+.projects{
+    margin-bottom: 1%;
+}
+
+.project-art{
+    padding: 1%;
+}
+
+.titles_nomarg{
+    display: block;
+    margin: 0%;
 }
 
 .htmllogo{
@@ -102,6 +124,7 @@ main{
 
 
 footer{
+    color: #59595c;
     display: flex;
     justify-content: space-between;
     padding-left: 9%;
@@ -127,4 +150,8 @@ textarea{
 
 input{
     width: 75%;
+}
+
+label{
+    font-weight: 700;
 }
