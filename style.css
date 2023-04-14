@@ -42,7 +42,7 @@ header h1{
 
 
 body{
-    background-image: linear-gradient(to bottom right, #6c59d4, #D4D0C5);
+    background-image: linear-gradient(to bottom right, #907ff3, #D4D0C5);
     font-family: 'Genos', sans-serif;
     color: rgb(255, 255, 255);
     display: flex;
@@ -119,6 +119,32 @@ article{
     background-color: #a79ddf69;
     padding: 2px;
     border-radius: 10px;
+}
+
+.nodelogohover{
+    width: 100px;
+    height: 90px;
+    background-color: #a79ddf69;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.nodelogohover:hover{
+    width: 99px;
+    height: 89px;
+    background-color: #cdcae269;
+    padding: 1px;
+    border-radius: 10px;
+    border: 2px solid #5d47d669;
+}
+
+.nodelogohover:active{
+    width: 100px;
+    height: 90px;
+    background-color: #5d4aca69;
+    padding: 0px;
+    border-radius: 10px;
+    border: 2px solid #452cce;
 }
 
 
