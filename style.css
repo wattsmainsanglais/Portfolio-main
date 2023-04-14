@@ -164,6 +164,13 @@ footer{
     
 }
 
+button{
+    font-family: 'Genos', sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    color: #000000;
+}
+
 input, textarea{
     padding: 0 0.5%;
     display: inline-block;
