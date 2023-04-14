@@ -1,6 +1,6 @@
 <?php
 $errors = '';
-$myemail = 'wattsmainsanglais@gmail.com';//<-----Put Your email address here.
+$myemail = 'naturedopes@gmx.fr';//<-----Put Your email address here.
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']))
@@ -33,15 +33,16 @@ $email_body = "You have received a new message. ".
 
 "Email: $email_address\n Message \n $message";
 
-$headers = "From: $myemail\n";
+$headers = "From: $email_address\n";
 
-$headers .= "Reply-To: $email_address";
+
 
 mail($to,$email_subject,$email_body,$headers);
 
 //redirect to the 'thank you' page
 
-header('Location: index.html');
+
+header('Location: indexthanks.html');
 
 }
 ?>
