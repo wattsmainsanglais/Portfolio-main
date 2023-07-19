@@ -52,6 +52,10 @@ body{
     
 }
 
+a{
+    color: rgb(255, 255, 255);
+}
+
 .overlay{
     padding-left: 4%;
     padding-right: 4%;
@@ -99,6 +103,19 @@ article{
 
 .project-art{
     padding: 1%;
+}
+
+.project_header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.ndlogo{
+    width: 50px;
+    margin-right: 5px;
 }
 
 .titles_nomarg{
@@ -198,6 +215,11 @@ label{
     .contact {
         width: 80%;
         
+    }
+
+    .ndlogo{
+        width: 25px;
+        margin-right: 3px;
     }
     
 }
